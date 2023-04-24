@@ -4,22 +4,29 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smart.cloud</groupId>
-        <artifactId>smart-cloud-platform</artifactId>
+        <artifactId>smart-cloud-web</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.smart.cloud</groupId>
-    <artifactId>smart-cloud-web</artifactId>
+    <artifactId>smart-cloud-mobile-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smart-cloud-web</name>
+    <name>smart-cloud-mobile-web</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-core</artifactId>
         </dependency>
 
         <dependency>
@@ -27,15 +34,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-    <modules>
-        <module>smart-cloud-admin-web</module>
-        <module>smart-cloud-console-web</module>
-        <module>smart-cloud-mobile-web</module>
-        <module>smart-cloud-passport-web</module>
-        <module>smart-cloud-program-web</module>
-    </modules>
 
     <build>
         <plugins>
