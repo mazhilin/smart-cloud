@@ -4,15 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smart.cloud</groupId>
-        <artifactId>smart-cloud-platform</artifactId>
+        <artifactId>smart-cloud-domain</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.smart.cloud</groupId>
-    <artifactId>smart-cloud-api</artifactId>
+    <artifactId>smart-cloud-base-domain</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smart-cloud-api</name>
+    <name>smart-cloud-base-domain</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -28,16 +27,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <modules>
-        <module>smart-cloud-admin-api</module>
-        <module>smart-cloud-applice-api</module>
-        <module>smart-cloud-base-api</module>
-        <module>smart-cloud-business-api</module>
-        <module>smart-cloud-identity-api</module>
-        <module>smart-cloud-material-api</module>
-        <module>smart-cloud-support-api</module>
-    </modules>
 
     <build>
         <plugins>

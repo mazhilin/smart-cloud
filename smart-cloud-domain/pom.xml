@@ -29,6 +29,16 @@
         </dependency>
     </dependencies>
 
+    <modules>
+        <module>smart-cloud-admin-domain</module>
+        <module>smart-cloud-applice-domain</module>
+        <module>smart-cloud-base-domain</module>
+        <module>smart-cloud-business-domain</module>
+        <module>smart-cloud-identity-domain</module>
+        <module>smart-cloud-material-domain</module>
+        <module>smart-cloud-support-domain</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
