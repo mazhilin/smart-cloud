@@ -30,10 +30,21 @@
     </dependencies>
 
     <modules>
+        <!--SmartCloud云服务基础管理Admin平台-->
         <module>smart-cloud-admin-web</module>
+        <!--SmartCloud云服务业务管控Console平台-->
         <module>smart-cloud-console-web</module>
+        <!--SmartCloud云服务定时任务Dispatch平台-->
+        <module>smart-cloud-dispatch-web</module>
+        <!--SmartCloud云服务数据监控Metabase平台-->
+        <module>smart-cloud-metabase-web</module>
+        <!--SmartCloud云服务APP移动端Mobile平台-->
         <module>smart-cloud-mobile-web</module>
+        <!--SmartCloud云服务统一登录认证Passport平台-->
         <module>smart-cloud-passport-web</module>
+        <!--SmartCloud云服务开放门户端Portal平台-->
+        <module>smart-cloud-portal-web</module>
+        <!--SmartCloud云服务统一小程序Program平台-->
         <module>smart-cloud-program-web</module>
     </modules>
 

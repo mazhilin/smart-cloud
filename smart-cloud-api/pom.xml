@@ -36,6 +36,7 @@
         <module>smart-cloud-business-api</module>
         <module>smart-cloud-identity-api</module>
         <module>smart-cloud-material-api</module>
+        <module>smart-cloud-monitor-api</module>
         <module>smart-cloud-support-api</module>
     </modules>
 

@@ -29,6 +29,13 @@
         </dependency>
     </dependencies>
 
+
+    <modules>
+        <module>smart-cloud-gateway-sphere</module>
+        <module>smart-cloud-monitor-sphere</module>
+        <module>smart-cloud-openapi-sphere</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>

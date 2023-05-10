@@ -36,6 +36,7 @@
         <module>smart-cloud-business-center</module>
         <module>smart-cloud-identity-center</module>
         <module>smart-cloud-material-center</module>
+        <module>smart-cloud-monitor-center</module>
         <module>smart-cloud-support-center</module>
     </modules>
 

@@ -36,6 +36,7 @@
         <module>smart-cloud-business-domain</module>
         <module>smart-cloud-identity-domain</module>
         <module>smart-cloud-material-domain</module>
+        <module>smart-cloud-monitor-domain</module>
         <module>smart-cloud-support-domain</module>
     </modules>
 

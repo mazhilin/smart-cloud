@@ -26,6 +26,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.smart.cloud</groupId>
+            <artifactId>smart-cloud-dubbo-provider</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
