@@ -4,18 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smart.cloud</groupId>
-        <artifactId>smart-cloud-platform</artifactId>
+        <artifactId>smart-cloud-sphere</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.smart.cloud</groupId>
-    <artifactId>smart-cloud-sphere</artifactId>
+    <artifactId>smart-cloud-registry-sphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smart-cloud-sphere</name>
+    <name>smart-cloud-registry-sphere</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,14 +25,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
-    <modules>
-        <module>smart-cloud-gateway-sphere</module>
-        <module>smart-cloud-monitor-sphere</module>
-        <module>smart-cloud-openapi-sphere</module>
-        <module>smart-cloud-registry-sphere</module>
-    </modules>
 
     <build>
         <plugins>
