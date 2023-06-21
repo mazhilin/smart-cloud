@@ -1,5 +1,7 @@
 package com.smart.cloud.applice.api.logger.client;
 
+import com.smart.cloud.common.api.base.client.ApiClient;
+
 /**
  * @className: com.smart.cloud.applice.api.logger.client.OperationLoggerApiClient
  * @projectName: 封装SmartCloud项目-OperationLoggerApiClient类
@@ -10,5 +12,5 @@ package com.smart.cloud.applice.api.logger.client;
  * @version: 1.0.0
  * @copyright: Copyright © 2018-2023 SmartCloud Systems Incorporated. All rights reserved.
  */
-public interface OperationLoggerApiClient {
+public interface OperationLoggerApiClient extends ApiClient {
 }

@@ -1,5 +1,7 @@
 package com.smart.cloud.applice.api.logger.server;
 
+import com.smart.cloud.common.api.base.server.ApiServer;
+
 /**
  * @className: com.smart.cloud.applice.api.logger.server.BusinessLoggerApiServer
  * @projectName: 封装SmartCloud项目-BusinessLoggerApiServer类
@@ -10,5 +12,5 @@ package com.smart.cloud.applice.api.logger.server;
  * @version: 1.0.0
  * @copyright: Copyright © 2018-2023 SmartCloud Systems Incorporated. All rights reserved.
  */
-public interface BusinessLoggerApiServer {
+public interface BusinessLoggerApiServer extends ApiServer {
 }
