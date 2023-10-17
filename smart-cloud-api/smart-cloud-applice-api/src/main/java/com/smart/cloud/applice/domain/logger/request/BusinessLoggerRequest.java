@@ -1,6 +1,7 @@
 package com.smart.cloud.applice.domain.logger.request;
 
-import com.smart.cloud.common.domain.base.request.BaseRequest;
+
+import com.smart.cloud.common.domain.object.request.BaseRequest;
 
 import java.io.Serializable;
 

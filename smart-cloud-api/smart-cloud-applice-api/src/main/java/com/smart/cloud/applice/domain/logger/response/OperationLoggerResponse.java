@@ -1,6 +1,7 @@
 package com.smart.cloud.applice.domain.logger.response;
 
-import com.smart.cloud.common.domain.base.response.BaseResponse;
+
+import com.smart.cloud.common.domain.object.response.BaseResponse;
 
 import java.io.Serializable;
 

@@ -1,6 +1,7 @@
 package com.smart.cloud.applice.api.logger.client;
 
-import com.smart.cloud.common.api.base.client.ApiClient;
+
+import com.smart.cloud.common.api.service.client.ApiClient;
 
 /**
  * @className: com.smart.cloud.applice.api.logger.client.BusinessLoggerApiClient
