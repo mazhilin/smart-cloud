@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.cloud.applice.domain.message.repository.mapper.MessageRecordMapper">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap id="BaseResultMap" type="com.smart.cloud.applice.domain.message.object.entity.MessageRecord">
+
+    </resultMap>
+
+    <!-- 查询字段公共sql -->
+    <sql id="all_columns">
+
+    </sql>
+
+    <!-- 查询数量公共sql -->
+    <sql id="count_tail">
+        select count(1)
+        from ${table.dbName}
+    </sql>
+
+    <!-- 分页公共sql -->
+    <sql id="pagination_tail">
+        limit
+        #{page.offset} ,
+        #{page.size}
+    </sql>
+
+</mapper>
