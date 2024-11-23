@@ -1,2 +1,2 @@
 # smart-cloud-platform
-smart-cloud
+SmartCloud微服务应用服务平台
