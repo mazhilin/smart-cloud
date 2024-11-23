@@ -1,2 +1,2 @@
-# smart-cloud
+# smart-cloud-platform
 smart-cloud
